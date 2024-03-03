@@ -1,5 +1,11 @@
 # AI_Workshop
 
+# Autorzy
+
+- Kacper Cygan (@decan33)
+- Krzysztof Klimczyk (@bxo11)
+- Krzysztof Kubit (@KrzQbt)
+
 ## Klasyfikacja materiałów jako izolator, ~~półprzewodnik~~, lub przewodnik bez użycia cechy "band gap"
 
 ### Realizacja Celów Projektowych

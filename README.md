@@ -1,6 +1,6 @@
 # AI_Workshop
 
-## Klasyfikacja materiałów jako izolator, półprzewodnik, lub przewodnik bez użycia cechy "band gap"
+## Klasyfikacja materiałów jako izolator, ~~półprzewodnik~~, lub przewodnik bez użycia cechy "band gap"
 
 ### Realizacja Celów Projektowych
 

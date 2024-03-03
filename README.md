@@ -20,3 +20,15 @@
 4. **Określenie Korzyści z Realizacji**  
    - Przyspieszenie charakteryzacji nowych materiałów.  
    - Zmniejszenie potrzeby eksperymentów fizycznych dzięki wstępnym przewidywaniom AI.
+  
+# Użyte technologie
+
+- Python
+- `pandas`
+- `matplotlib`
+- `sklearn`
+- TBA
+
+# Zbiór danych
+
+https://next-gen.materialsproject.org/

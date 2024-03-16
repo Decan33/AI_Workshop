@@ -27,13 +27,20 @@
    - Przyspieszenie charakteryzacji nowych materiałów.  
    - Zmniejszenie potrzeby eksperymentów fizycznych dzięki wstępnym przewidywaniom AI.
   
-# Użyte technologie
+### Użyte technologie
 
 - Python
 - `pandas`
 - `matplotlib`
 - `sklearn`
 - TBA
+
+### Obejrzenie danych oraz ustalenie celow projektowych
+1. Sposób użycia danych będzie polegał na sprecyzowaniu wzoru chemicznego "composition" na podstawie którego model określi band gap materiału.
+2. Z istniejących rozwiązań dostępnych jest niewiele prostych przykładów, które określają band gap na podstawie struktury materiału. Poza tym istnieje narzędzie "automatminer" - https://hackingmaterials.lbl.gov/automatminer/, które automatycznie dobiera cechy i tworzy model uczenia maszynowego do określania wybranej cechy.
+
+
+   
 
 # Zbiór danych
 

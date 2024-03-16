@@ -1,5 +1,7 @@
 # AI_Workshop
 
+https://deepnote.com/workspace/ai-workshop-00bcbb34-42c8-4d83-a7ca-c6dbc20ed32f/project/material-project-373b239b-f978-44e3-a6c4-387718ef1571/notebook/material-project-6f0838106c524ecbb96f8d965a8cf9fe
+
 # Autorzy
 
 - Kacper Cygan (@decan33)

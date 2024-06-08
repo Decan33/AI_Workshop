@@ -9,6 +9,8 @@ fields_to_fetch = [
     "material_id",
     "nelements",
     "efermi",
+    "spacegroup_number",
+    "spacegroup_symbol",
     "energy_per_atom",
     "formation_energy_per_atom",
     "formation_energy",
@@ -17,15 +19,28 @@ fields_to_fetch = [
     "ordering",
     "total_magnetization",
     "total_magnetization_normalized_vol",
-    "spacegroup_number",
-    "spacegroup_symbol",
-    "magnetic_ordering",
     "band_gap",
+    "volume",
+    "density",
+    "density_atomic",
+    "deprecated",
+    "uncorrected_energy_per_atom",
+    "formation_energy_per_atom",
+    "is_metal",
+    "is_gap_direct",
+    "num_magnetic_sites",
+    "uncorrected_energy_per_atom",
 ]
 
 with MPRester(API_KEY, use_document_model=False) as mpr:
-    docs = mpr.materials.summary.search(fields=fields_to_fetch, num_elements=(0, 3))
+    docs = mpr.summary.search(fields=fields_to_fetch, num_elements=(0, 3))
+
 
 df = pd.DataFrame(docs)
+
+df = df[df["deprecated"] == False]
+df = df.drop(columns=["deprecated"])
+
+df = df.dropna()
 
 df.to_csv("materials.csv")

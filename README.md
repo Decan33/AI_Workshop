@@ -35,14 +35,26 @@ https://deepnote.com/workspace/ai-workshop-00bcbb34-42c8-4d83-a7ca-c6dbc20ed32f/
 - `pandas`
 - `matplotlib`
 - `sklearn`
+- `FeatureWiz`
 - TBA
 
 ### Obejrzenie danych oraz ustalenie celow projektowych
 1. Sposób użycia danych będzie polegał na sprecyzowaniu wzoru chemicznego "composition" na podstawie którego model określi band gap materiału.
 2. Z istniejących rozwiązań dostępnych jest niewiele prostych przykładów, które określają band gap na podstawie struktury materiału. Poza tym istnieje narzędzie "automatminer" - https://hackingmaterials.lbl.gov/automatminer/, które automatycznie dobiera cechy i tworzy model uczenia maszynowego do określania wybranej cechy.
 
+## Struktura Projektu
 
-   
+### `utils`
+- `save_to_file.py`: Skrypt do pobierania danych z Materials Project i zapisywania ich do pliku CSV.
+- `google_colab_auto_feature_selection.ipynb`: Notebook Google Colab do automatycznego wyboru cech przy użyciu FeatureWiz.
+- `google_colab_auto_feature_selection_with_structure.ipynb`: Notebook Google Colab do automatycznego wyboru cech z uwzględnieniem struktury materiałów.
+
+### `ml`
+- `random_forest_regression.ipynb`: Notebook do regresji z użyciem lasu losowego na podstawie wybranych cech.
+- `random_forest_regression_with_structure.ipynb`: Notebook do regresji z użyciem lasu losowego z uwzględnieniem struktury materiałów.
+
+### `wyniki`
+-
 
 # Zbiór danych
 
